@@ -1,1 +1,10 @@
+#active response script for stopping ssh access to windows wazuh agent.
 
+/var/ossec/etc/ossec.conf
+
+<active-response>
+    <command>netsh</command>
+    <location>defined-agent</location>
+    <agent_id>001</agent_id>
+    <rules_id>60106</rules_id>
+  </active-response>
