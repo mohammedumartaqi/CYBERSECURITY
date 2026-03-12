@@ -130,13 +130,13 @@ Currently logged in as admin user while making all of the above changes. As you 
 We now login with "user1" which is a user dedicated to server-A.
 
 <img width="1919" height="736" alt="Screenshot 2026-03-12 120302" src="https://github.com/user-attachments/assets/e9453d80-655c-45ca-921a-02f9c671c48b" />
-The "user1" only has access to server A  
-
-<img width="1919" height="737" alt="Screenshot 2026-03-12 120327" src="https://github.com/user-attachments/assets/019536a0-be40-4add-8803-9a84f7bd0152" />
 User1 has access to Ubuntu wazuh agent and to all of its logs and data.
 
+<img width="1919" height="737" alt="Screenshot 2026-03-12 120327" src="https://github.com/user-attachments/assets/019536a0-be40-4add-8803-9a84f7bd0152" />
+The "user1" only has access to server A.
+
 <img width="1919" height="736" alt="Screenshot 2026-03-12 120416" src="https://github.com/user-attachments/assets/ff9c3af3-ae2b-4a7b-8872-eb3eb8551225" />
-The "user2" only has access to server B
+User2 has access to Ubuntu wazuh agent and to all of its logs and data.
 
 <img width="1919" height="737" alt="Screenshot 2026-03-12 120530" src="https://github.com/user-attachments/assets/aea03b33-9e9e-4f68-8ee2-55e1611a8128" />
-User2 has access to Ubuntu wazuh agent and to all of its logs and data.
+The "user2" only has access to server B
