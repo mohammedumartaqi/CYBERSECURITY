@@ -1,1 +1,10 @@
+Multi-tenancy in Wazuh means allowing multiple independent users, teams, or organizations to use the same Wazuh environment while keeping their data separated.
+
+With multi-tenancy:
+
+Admin → Has all the access to the data coming for server A and Server B
+User 1 → sees only their data for server A
+User 2 → sees only their datanfor server B
+
+They cannot see each other's data.
 
