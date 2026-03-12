@@ -8,3 +8,15 @@ User 2 → sees only their datanfor server B
 
 They cannot see each other's data.
 
+--------------
+
+sudo nano /usr/share/wazuh-dashboard/data/wazuh/config/wazuh.yml
+
+hosts:
+  - default:
+      url: https://192.168.57.3
+      port: 55000
+      username: wazuh
+      password: KfN?qcmgXFIXw*LH9U2zRxadLBP6?20L
+      run_as: true   #change fro "false" to "true"
+enrollment.dns: "192.168.57.3"
