@@ -1,6 +1,35 @@
 <img width="848" height="429" alt="Screenshot 2026-03-12 105118" src="https://github.com/user-attachments/assets/cc2eb174-dfb8-4bca-8a8e-e756ea3ef75e" />
+
+1. Agent Groups Creation
+The first screenshot shows the Groups section in the Wazuh Dashboard where multiple agent groups were created to logically separate monitored systems.
+Groups configured:
+default
+server-A
+server-B
+
 <img width="981" height="419" alt="Screenshot 2026-03-12 105347" src="https://github.com/user-attachments/assets/292308e6-8ba0-4688-b8d2-338cc05422ed" />
+2. Agent Group Configuration
+A label is added to agents belonging to the server-A group.
+Labels help filter alerts and logs inside the dashboard.
+This enables easier identification of which server generated a security event.
+
 <img width="1919" height="645" alt="Screenshot 2026-03-12 115335" src="https://github.com/user-attachments/assets/f4253b93-e48a-4ed0-85ad-7981dfb4f686" />
+3. Role-Based Access Control
+The third screenshot shows custom roles created in the Wazuh Security → Roles section.
+Roles configured:
+read_server_A
+read_server_B
+Each role includes:
+Cluster permissions
+Index permissions for wazuh-alerts-*
+Multi-tenant access control
+Users assigned:
+user1 → read_server_A
+user2 → read_server_B
+Purpose:
+Restrict access so users only view alerts from their assigned servers
+Implement role-based security separation
+
 <img width="1919" height="424" alt="Screenshot 2026-03-12 115401" src="https://github.com/user-attachments/assets/159f7587-6fa5-4444-9064-9fd6c5005a2c" />
 <img width="1919" height="729" alt="Screenshot 2026-03-12 115628" src="https://github.com/user-attachments/assets/4016192b-6939-46dd-bda8-54a764871ed9" />
 <img width="1919" height="747" alt="Screenshot 2026-03-12 115722" src="https://github.com/user-attachments/assets/12d88016-b208-4104-a92a-6b9a810c60bf" />
